@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --ff-main: 'Josefin Sans', sans-serif;
+  --ff-secondary: 'Bebas Neue', cursive;
+
+  --clr-bg-color: rgb(218, 218, 218);
+  --clr-accent: #84ff00;
+  --clr-outline:#0cfa00;
+  --clr-other:rgb(184, 239, 145);
+  --clr-text-main: #000;
+  
+  --fs-h1: 5rem;
+  --fs-h2: 3rem;
+  --fs-body: 2.5rem;
+}
+
+p{font-family: var(--ff-main);font-size: var(--fs-body);}
+h1{font-family: var(--ff-secondary); font-size: var(--fs-h1);}
+h2{font-family: var(--ff-secondary); font-size: var(--fs-h2);}
+
+
+body{
+  font-size: var(--fs-body);
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--clr-bg-color);
+}
+
+#insertKey{
+  display: flex;
+  flex-direction: row;
+}
+
+.genText h1{
+  padding: 30px;
+}
+
+.genText{
+  background: var(--clr-other);
+}
+
+
+.afterkey{
+  padding: 50px;
+  border: solid 5px var(--clr-accent);
+  box-shadow: 10px 10px;
+  background: var(--clr-other);
+}
